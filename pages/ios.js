@@ -22,8 +22,8 @@ FINAL,DIRECT
 export default function IOS() {
   return (
     <div style={{ textAlign: "center", padding: "50px" }}>
-      <h1>📱 iOS Config Page</h1>
-      <p>Halaman ini muncul kalau dibuka lewat browser.</p>
+      <h1>iOS host Page</h1>
+      <p>host.</p>
     </div>
   );
 }
