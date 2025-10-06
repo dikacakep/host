@@ -11,8 +11,8 @@ export async function getServerSideProps(context) {
 FINAL,DIRECT
 
 [Host]
-www.growtopia1.com = 128.199.212.210
-www.growtopia2.com = 128.199.212.210`
+www.growtopia1.com = 178.128.62.224
+www.growtopia2.com = 178.128.62.224`
     );
     return { props: {} };
   }
