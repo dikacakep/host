@@ -1,10 +1,10 @@
 export async function getServerSideProps({ res }) {
   res.setHeader('Content-Type', 'text/plain; charset=utf-8');
   res.end(
-`128.199.212.210 growtopia1.com
-128.199.212.210 growtopia2.com
-128.199.212.210 www.growtopia1.com
-128.199.212.210 www.growtopia2.com`
+`178.128.62.224 growtopia1.com
+178.128.62.224 growtopia2.com
+178.128.62.224 www.growtopia1.com
+178.128.62.224 www.growtopia2.com`
   );
   return { props: {} };
 }
