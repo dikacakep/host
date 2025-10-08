@@ -5,11 +5,10 @@ export async function getServerSideProps({ res }) {
 
   // Isi hosts.txt kamu
   res.end(
-`# Custom hosts file
-128.199.212.210 growtopia1.com
-128.199.212.210 growtopia2.com
-128.199.212.210 www.growtopia1.com
-128.199.212.210 www.growtopia2.com`
+`178.128.62.224 growtopia1.com
+178.128.62.224 growtopia2.com
+178.128.62.224 www.growtopia1.com
+178.128.62.224 www.growtopia2.com`
   );
 
   return { props: {} };
